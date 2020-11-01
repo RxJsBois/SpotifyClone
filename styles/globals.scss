@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+$base-color: #1dd05d;
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Nanum Gothic", sans-serif;
+
+  .homePage__navbar {
+    display: flex;
+    h1 {
+      margin-left: 3px;
+      font-weight: bold;
+    }
+  }
+
+  .fa-spotify {
+    color: $base-color;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
