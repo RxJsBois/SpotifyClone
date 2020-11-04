@@ -1,9 +1,13 @@
 import Head from "next/head";
-import NavBar from "../components/NavBar";
+import FriendSection from "../components/FriendSection";
+import Header from "../components/Header";
+import SideNavBar from "../components/SideNavBar";
+import Footer from "../components/Footer";
+import MainContent from "../components/MainContent";
 
 export default function Home() {
   return (
-    <div className="homePage">
+    <div id="homePage">
       <Head>
         <title>Spotify</title>
         <script
@@ -12,10 +16,13 @@ export default function Home() {
           crossOrigin="anonymous"
         ></script>
       </Head>
-      <NavBar />
-      <div className="homePage__content">
-        <h1>Home Page</h1>
+      <Header />
+      <div id="main">
+        <SideNavBar />
+        <MainContent />
+        <FriendSection />
       </div>
+      <Footer />
     </div>
   );
 }
