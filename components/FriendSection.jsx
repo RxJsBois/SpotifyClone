@@ -3,7 +3,7 @@ import Friend from "./Friend";
 export default function FriendSection() {
   return (
     <div id="FriendSection">
-      <div id="nav">
+      <div id="friendNav">
         <h2>Friend Activity</h2>
         <Friend
           name="Gautam"

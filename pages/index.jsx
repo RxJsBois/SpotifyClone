@@ -1,6 +1,5 @@
 import Head from "next/head";
 import FriendSection from "../components/FriendSection";
-import Header from "../components/Header";
 import SideNavBar from "../components/SideNavBar";
 import Footer from "../components/Footer";
 import MainContent from "../components/MainContent";
@@ -16,13 +15,12 @@ export default function Home() {
           crossOrigin="anonymous"
         ></script>
       </Head>
-      <Header />
-      <div id="main">
+      <div id="grid">
         <SideNavBar />
         <MainContent />
         <FriendSection />
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 }

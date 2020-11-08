@@ -1,7 +1,7 @@
 export default function SideNavBar() {
   return (
     <div id="SideNavBar">
-      <div id="nav">
+      <div id="sidebarNav">
         <div className="nav-item">
           <i className="fas fa-home fa-lg" />
           <h2>Home</h2>

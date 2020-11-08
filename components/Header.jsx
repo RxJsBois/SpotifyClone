@@ -2,16 +2,7 @@ import { Navbar, Nav, InputGroup, FormControl, Button } from "react-bootstrap";
 
 export default function NavBar() {
   return (
-    <Navbar
-      style={{
-        height: "8vh",
-        width: "100%",
-        backgroundColor: "black",
-        color: "white",
-        position: "sticky",
-        position: "fixed",
-      }}
-    >
+    <Navbar id="header">
       <Nav>
         <InputGroup
           style={{
